@@ -3,7 +3,7 @@ const taskList = document.querySelector('#task-list');
 
 function addTask(task){
     const listItem = document.createElement('li')
-    listItem.innerHTML = `<input type="checkbox" /> <span>${task}</span><button>remove</button>`;
+    listItem.innerHTML = `<span>${task}</span><button>-</button>`;
     taskList.appendChild(listItem)
 }
 

@@ -62,9 +62,52 @@ nav li a {
 }
 
 #todo-container {
-    margin-top: -40px;
+    margin-top: -170px;
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
     padding: 5%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.596);
+    background-color: rgba(175, 240, 255, 0);
 }
+
+#todo-container label {
+    color: white;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.634);
+}
+
+#todo-container input {
+    margin-top: 10px;
+    border: 2px solid white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.596);
+}
+
+#todo-container button {
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.596)
+
+}
+
+#todo-container button:hover {
+    cursor: pointer;
+}
+
+#task-list {
+    color: white;
+    list-style-type:disc;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.634);
+}
+
+
+#add {
+    margin-left: 0;
+}
+
+button {
+    margin-left: 20px;
+}
+
+
+
+
