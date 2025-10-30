@@ -13,11 +13,15 @@ form.addEventListener('submit', (event)=>{
     const task = input.value;
     addTask(task);
     input.value = ''
-})
+});
 
 taskList.addEventListener('click', (event)=>{
     if(event.target.tagName == 'BUTTON'){
         const listItem = event.target.parentElement
         taskList.removeChild(listItem);
     }
-})
+});
+
+
+
+

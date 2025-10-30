@@ -18,7 +18,7 @@
         </select>
 
         <label for="amount-input">amount:</label>
-        <label type="number" id="amount-input">
+        <input type="number" id="amount-input">
         <label for="date-input">date:</label>
         <input type="date" id="date-input">
         <button id="add-btn">add</button>
@@ -40,12 +40,16 @@
             </tbody>
             <tfoot>
                 <tr>
-                    
+                    <td>total:</td>
+                    <td id="total-amount">total:</td>
+                    <td></td>
+                    <td></td>
+
                 </tr>
             </tfoot>
         </table>
     </div>
 
-    <script src="script.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
