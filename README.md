@@ -1,5 +1,5 @@
 # about
-i thought it'd be fun to make an organization website bc i'm so busy nowadays! this website includes a to-do list and expense tracker. i tried to go for simple, modern-ish looking theme since it's easier for me to focus on. this was developed using html, css, and javascript in vscode! this was also developed as apart of hack club's athena award:
+i thought it'd be fun to make an organization website bc i'm so busy nowadays! this website includes a to-do list and expense tracker. i tried to go for simple, modern-ish looking theme since it's easier for me to focus on. this was developed using html, css, and javascript in vscode! this was also developed as apart of hack club's athena award: [![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 
 # how to use
 to-do list: type a task into the input box, then press the "+" button. press the "-" to remove.
