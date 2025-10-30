@@ -17,7 +17,7 @@ nav {
     padding: 0px 100px;
     position: fixed;
     line-height: 75px;
-    margin-top: 10%;
+    margin-top: 8%;
     background-image: linear-gradient(white, rgb(255, 175, 188),white);
 }
 
@@ -27,11 +27,10 @@ nav {
     float: left;
     letter-spacing: 2px;
     margin-top: 10%;
-
+    margin-right: 5%;
 }
 
-nav ul {
-}
+
 
 nav li {
     margin-top: 11%;
@@ -51,3 +50,21 @@ nav li a {
     }
 }
 
+
+/* todo list */
+
+#todo-body {
+    width: 100%;
+    height: 400px;
+    margin-top: 22%;
+    background-image: linear-gradient(white, rgb(175, 240, 255),white);
+    background-repeat: no-repeat;
+}
+
+#todo-container {
+    margin-top: -40px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}

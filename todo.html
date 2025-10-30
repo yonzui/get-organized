@@ -1,29 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>get organized</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>to-do list</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="todo-body">
 
-  <nav>
-    <div class="navheader">
-      <h1>get organized.</h1>
-    </div>
+  <div id="todo-container">
 
-    <ul>
-      <li><a href="index.html">home</a></li>
-      <li><a href="todo.html">to-do list</a></li>
-      <li><a href="budget.html">budget calculator</a></li>
+    <form>
+      <label for="">what's coming up?...</label>
+      <input type="text" id="task-input" name="task-input">
+      <button>+</button>
+    </form>
 
-    </ul>
-  </nav>
+    <ul id="task-list"></ul>
 
-  <div class="intro">
-    <h2>need to keep track of upcoming deadlines? trying to figure out where you're spending your money? find it all here.</h2>
   </div>
 
-
+  <script src="script.js"></script>
 </body>
 </html>
