@@ -38,7 +38,7 @@ addBtn.addEventListener('click', function(){
     const deleteCell = newRow.insertCell();
     const deleteBtn = document.createElement('button');
 
-    deleteBtn.textContent = 'Delete';
+    deleteBtn.textContent = '-';
     deleteBtn.classList = ('delete-btn');
     deleteBtn.addEventListener('click', function(){
         expenses.splice(expenses.indexOf(expense), 1);
@@ -67,7 +67,7 @@ for (const expense of expenses) {
     const dateCell = newRow.insertCell()
     const deleteCell = newRow.insertCell();
     const deleteBtn = document.createElement('button');
-    deleteBtn.textContent = 'Delete';
+    deleteBtn.textContent = '-';
     deleteBtn.classList = ('delete-btn');
     deleteBtn.addEventListener('click', function(){
         expenses.splice(expenses.indexOf(expense), 1);

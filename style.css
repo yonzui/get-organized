@@ -110,4 +110,95 @@ button {
 
 
 
+/* budget calc */
 
+#budget-body {
+    background-image: linear-gradient(white, rgb(200, 255, 175), white);
+    background-repeat: no-repeat;
+    
+}
+
+
+.budget-container {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.596);
+    padding: 5%;
+
+
+}
+
+.budget-container button {
+    border: none;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.596);
+    cursor: pointer;
+}
+
+table, th, td {
+    border: 2px solid white;
+    border-spacing: 0px;
+    border-width: 3px;    
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.596);
+
+}
+
+
+th {
+    align-items: center;
+    padding-right: 80px;
+    color: black;
+
+}
+
+table {
+    line-height: 30px;
+    padding: 5%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.596);
+
+}
+
+#category-select, #amount-input, #date-input {
+    font-family: "cafe";
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.388);
+}
+
+.input-section label {
+    padding-right: 7px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+#total-amount {
+    font-weight: 600;
+}
+
+#home {
+    margin-top: 15px;
+    border: none;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.596);
+    cursor: pointer;
+    
+}
+
+#home-todo {
+    position: relative;
+    bottom: 80%;
+    border: none;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.596);
+    cursor: pointer;  
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "cafe";
+}

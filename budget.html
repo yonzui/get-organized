@@ -7,8 +7,14 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+<body id="budget-body">
+
+    <button id="home">
+        <a href="index.html">home</a></button>
+
+    <div class="budget-container">
     
+
     <div class="input-section">
         <label for="category-select">what:</label>
         <select id="category-select">
@@ -17,11 +23,11 @@
             <option value="fun-stuff">fun stuff</option>
         </select>
 
-        <label for="amount-input">amount:</label>
+        <label for="amount-input" id="amount-label">amount:</label>
         <input type="number" id="amount-input">
-        <label for="date-input">date:</label>
+        <label for="date-input" id="date-label">date:</label>
         <input type="date" id="date-input">
-        <button id="add-btn">add</button>
+        <button id="add-btn">+</button>
 
     </div>
     <div class="expenses-list">
@@ -32,7 +38,7 @@
                     <th>category</th>
                     <th>amount</th>
                     <th>date</th>
-                    <th>delete</th>
+                    <th>remove</th>
                 </tr>
             </thead>
             <tbody id="expense-table-body">
@@ -40,7 +46,7 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <td>total:</td>
+                    <td><b>total:</b></td>
                     <td id="total-amount">total:</td>
                     <td></td>
                     <td></td>
@@ -49,6 +55,10 @@
             </tfoot>
         </table>
     </div>
+
+
+    </div>
+
 
     <script src="app.js"></script>
 </body>
